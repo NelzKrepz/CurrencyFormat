@@ -4,6 +4,11 @@
 <br>
 
 # » Usage
+## Import Module
+```html
+<script src="https://api.hasannelz.repl.co/cdn/Currency.js"></script>
+```
+
 ## Constructor
 ```js
 new CurrencyFormat(number, prefix);
