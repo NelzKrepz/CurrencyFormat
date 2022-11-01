@@ -12,22 +12,22 @@ new CurrencyFormat(number, prefix);
 <br>
 
 ## Properties
-### 〉 `.num`
+### 〉 .num
 ```
 Return the inputted number.
 ```
-### 〉 `.prefix`
+### 〉 .prefix
 ```
 Return the inputted prefix.
 ```
-### 〉 `.thousands_sep`
+### 〉 .thousands_sep
 ```js
 Thousands separate.
 
 Example:
 .thousands_sep = '.'
 ```
-### 〉 `.formatted`
+### 〉 .formatted
 ```
 Return formatted currency string.
 ```
@@ -35,11 +35,11 @@ Return formatted currency string.
 <br>
 
 ## Methods
-### 〉 `.toCurrency()`
+### 〉 .toCurrency()
 ```
 Return the formatted currency string.
 ```
-### 〉 `.assignElement(element)`
+### 〉 .assignElement(element)
 ```js
 Params:
 - element: DOM element as string. 
@@ -50,7 +50,7 @@ Assign formatter to the DOM `<input>` element
 <br>
 
 ## String.prototype
-### 〉 `.currencyFormat(prefix)`
+### 〉 .currencyFormat(prefix)
 ```js
 Params:
 - prefix: (Optional) the currency prefix.
