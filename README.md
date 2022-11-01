@@ -20,6 +20,13 @@ Return the inputted number.
 ```
 Return the inputted prefix.
 ```
+### 〉 `.thousands_sep`
+```js
+Thousands separate.
+
+Example:
+.thousands_sep = '.'
+```
 ### 〉 `.formatted`
 ```
 Return formatted currency string.

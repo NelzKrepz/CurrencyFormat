@@ -1,5 +1,5 @@
 /*
-Forked from https://github.com/ihsandulu/rupiahnumerik
+Original by https://github.com/ihsandulu/rupiahnumerik
 Modified by NelzKrepz
 */
 
@@ -8,6 +8,7 @@ Modified by NelzKrepz
 class CurrencyFormat {
     num = null;
     prefix = '';
+    thousands_sep = '.' // Use dot by default
     /**
      * 
      * @param {string} string A number.
@@ -65,7 +66,7 @@ class CurrencyFormat {
                 }
                 return s.join(dec);
             }
-            
+
             this.num = $(element).val();
             var currency;
             $(element).attr('type', 'text');
@@ -77,7 +78,7 @@ class CurrencyFormat {
             if ($(element).attr('name') == $(element).attr('id')) {
                 $(element).after(txt1);
                 $(element).attr('name', '');
-                currency = this.number_format(this.num, 2, '', '.');
+                currency = number_format(this.num, 2, '', this.thousands_sep);
                 if (this.num <= 0) { currency = ''; }
                 $(element).val(currency);
                 $("#" + id1).val(this.num);
