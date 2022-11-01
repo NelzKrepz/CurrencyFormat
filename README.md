@@ -71,7 +71,7 @@ Return formatted currency string.
 # » Example
 ```js
 // Using class constructor
-var number = 2000,
+var number = "2000",
     prefix = 'Rp. ';
 var Currency = new CurrencyFormat(number, prefix);
 
