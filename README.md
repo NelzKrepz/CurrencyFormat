@@ -6,7 +6,7 @@
 # » Usage
 ## Import Module
 ```html
-<script src="https://api.hasannelz.repl.co/cdn/Currency.js"></script>
+<script src="https://raw.githubusercontent.com/NelzKrepz/CurrencyFormat/main/Currency.js"></script>
 ```
 
 ## Constructor
